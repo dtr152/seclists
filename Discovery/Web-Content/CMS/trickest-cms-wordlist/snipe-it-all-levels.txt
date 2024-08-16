@@ -2500,6 +2500,10 @@ tests/Feature/Console/OptimizeTest.php
 Feature/Console/OptimizeTest.php
 Console/OptimizeTest.php
 OptimizeTest.php
+tests/Feature/Console/FixupAssignedToAssignedTypeTest.php
+Feature/Console/FixupAssignedToAssignedTypeTest.php
+Console/FixupAssignedToAssignedTypeTest.php
+FixupAssignedToAssignedTypeTest.php
 tests/Feature/Console/MergeUsersTest.php
 Feature/Console/MergeUsersTest.php
 Console/MergeUsersTest.php
@@ -3891,6 +3895,10 @@ resources/views/partials/bootstrap-table.blade.php
 views/partials/bootstrap-table.blade.php
 partials/bootstrap-table.blade.php
 bootstrap-table.blade.php
+resources/views/partials/confetti-js.blade.php
+views/partials/confetti-js.blade.php
+partials/confetti-js.blade.php
+confetti-js.blade.php
 resources/views/partials/label2-preview.blade.php
 views/partials/label2-preview.blade.php
 partials/label2-preview.blade.php
@@ -34674,6 +34682,9 @@ migrations/2013_11_16_084923_add_user_id_to_models.php
 database/migrations/2013_11_17_054526_add_physical_to_assets.php
 migrations/2013_11_17_054526_add_physical_to_assets.php
 2013_11_17_054526_add_physical_to_assets.php
+database/migrations/2024_08_15_111816_add_confetti_to_users.php
+migrations/2024_08_15_111816_add_confetti_to_users.php
+2024_08_15_111816_add_confetti_to_users.php
 database/migrations/2016_11_01_030818_fix_forgotten_filename_in_action_logs.php
 migrations/2016_11_01_030818_fix_forgotten_filename_in_action_logs.php
 2016_11_01_030818_fix_forgotten_filename_in_action_logs.php
@@ -35036,6 +35047,10 @@ app/Console/Commands/RestoreDeletedUsers.php
 Console/Commands/RestoreDeletedUsers.php
 Commands/RestoreDeletedUsers.php
 RestoreDeletedUsers.php
+app/Console/Commands/FixupAssignedToWithoutAssignedType.php
+Console/Commands/FixupAssignedToWithoutAssignedType.php
+Commands/FixupAssignedToWithoutAssignedType.php
+FixupAssignedToWithoutAssignedType.php
 app/Console/Commands/RestoreFromBackup.php
 Console/Commands/RestoreFromBackup.php
 Commands/RestoreFromBackup.php
