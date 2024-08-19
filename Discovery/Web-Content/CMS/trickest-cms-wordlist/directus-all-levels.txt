@@ -16526,8 +16526,12 @@ license
 contributing.md
 .changeset/config.json
 config.json
+.changeset/quick-worms-kick.md
+quick-worms-kick.md
 .changeset/wise-bikes-suffer.md
 wise-bikes-suffer.md
+.changeset/gentle-balloons-pretend.md
+gentle-balloons-pretend.md
 contributors.yml
 license
 .dockerignore

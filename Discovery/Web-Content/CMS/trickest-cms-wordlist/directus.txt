@@ -3345,7 +3345,9 @@ app/src/lang/get-current-language.test.ts
 app/license
 contributing.md
 .changeset/config.json
+.changeset/quick-worms-kick.md
 .changeset/wise-bikes-suffer.md
+.changeset/gentle-balloons-pretend.md
 contributors.yml
 license
 .dockerignore
