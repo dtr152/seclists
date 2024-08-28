@@ -2216,6 +2216,7 @@ java/org/apache/tomcat/util/res/StringManager.java
 java/org/apache/tomcat/util/LocalStrings_ja.properties
 java/org/apache/tomcat/util/http/MimeHeaders.java
 java/org/apache/tomcat/util/http/InvalidParameterException.java
+java/org/apache/tomcat/util/http/NoEqualsCookie.java
 java/org/apache/tomcat/util/http/LocalStrings_fr.properties
 java/org/apache/tomcat/util/http/LocalStrings.properties
 java/org/apache/tomcat/util/http/RequestUtil.java
@@ -4312,6 +4313,7 @@ test/org/apache/el/parser/TestAstConcatenation.java
 test/org/apache/el/parser/TestELParserPerformance.java
 test/org/apache/el/parser/TestAstChoice.java
 test/org/apache/el/parser/TestAstAnd.java
+test/org/apache/el/parser/TestAstPlus.java
 test/org/apache/el/parser/TestAstOr.java
 test/org/apache/el/parser/TestAstFunction.java
 test/org/apache/el/parser/TesterBeanB.java

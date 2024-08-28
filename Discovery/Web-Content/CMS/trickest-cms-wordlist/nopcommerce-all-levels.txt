@@ -15586,6 +15586,13 @@ wwwroot/lib_npm/jquery-migrate/jquery-migrate.min.map
 lib_npm/jquery-migrate/jquery-migrate.min.map
 jquery-migrate/jquery-migrate.min.map
 jquery-migrate.min.map
+src/Presentation/Nop.Web/wwwroot/lib_npm/jquery-migrate/jquery-migrate.js
+Presentation/Nop.Web/wwwroot/lib_npm/jquery-migrate/jquery-migrate.js
+Nop.Web/wwwroot/lib_npm/jquery-migrate/jquery-migrate.js
+wwwroot/lib_npm/jquery-migrate/jquery-migrate.js
+lib_npm/jquery-migrate/jquery-migrate.js
+jquery-migrate/jquery-migrate.js
+jquery-migrate.js
 src/Presentation/Nop.Web/wwwroot/lib_npm/jquery-migrate/jquery-migrate.min.js
 Presentation/Nop.Web/wwwroot/lib_npm/jquery-migrate/jquery-migrate.min.js
 Nop.Web/wwwroot/lib_npm/jquery-migrate/jquery-migrate.min.js
@@ -29341,6 +29348,12 @@ Nop.Tests/Nop.Services.Tests/Common/NopLinksDefaultsTests.cs
 Nop.Services.Tests/Common/NopLinksDefaultsTests.cs
 Common/NopLinksDefaultsTests.cs
 NopLinksDefaultsTests.cs
+src/Tests/Nop.Tests/Nop.Services.Tests/Common/AddressServiceTests.cs
+Tests/Nop.Tests/Nop.Services.Tests/Common/AddressServiceTests.cs
+Nop.Tests/Nop.Services.Tests/Common/AddressServiceTests.cs
+Nop.Services.Tests/Common/AddressServiceTests.cs
+Common/AddressServiceTests.cs
+AddressServiceTests.cs
 src/Tests/Nop.Tests/Nop.Services.Tests/Common/GenericAttributeServiceTests.cs
 Tests/Nop.Tests/Nop.Services.Tests/Common/GenericAttributeServiceTests.cs
 Nop.Tests/Nop.Services.Tests/Common/GenericAttributeServiceTests.cs

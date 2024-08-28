@@ -1282,6 +1282,7 @@ ghost/admin/tests/unit/utils/ghost-paths-test.js
 ghost/admin/tests/unit/utils/subscription-data-test.js
 ghost/admin/tests/unit/utils/sentry-test.js
 ghost/admin/tests/unit/utils/merge-stats-by-date-test.js
+ghost/admin/tests/unit/utils/member-event-types-test.js
 ghost/admin/tests/unit/models/setting-test.js
 ghost/admin/tests/unit/models/post-test.js
 ghost/admin/tests/unit/models/navigation-item-test.js
@@ -2058,6 +2059,7 @@ ghost/admin/app/utils/analytics.js
 ghost/admin/app/utils/sentry.js
 ghost/admin/app/utils/caja-sanitizers.js
 ghost/admin/app/utils/link-component.js
+ghost/admin/app/utils/member-event-types.js
 ghost/admin/app/utils/get-scroll-parent.js
 ghost/admin/app/utils/shortcuts.js
 ghost/admin/app/utils/password-generator.js
@@ -2911,6 +2913,7 @@ ghost/core/core/server/services/members/jobs/clean-expired-comped.js
 ghost/core/core/server/services/members/MembersConfigProvider.js
 ghost/core/core/server/services/members/SingleUseTokenProvider.js
 ghost/core/core/server/services/members/middleware.js
+ghost/core/core/server/services/members/RequestIntegrityTokenProvider.js
 ghost/core/core/server/services/tags-public/service.js
 ghost/core/core/server/services/tags-public/index.js
 ghost/core/core/server/services/xmlrpc.js
@@ -3131,6 +3134,7 @@ ghost/core/core/server/data/migrations/versions/5.20/2022-10-20-02-52-add-link-e
 ghost/core/core/server/data/migrations/versions/5.20/2022-10-18-05-39-drop-nullable-tier-id.js
 ghost/core/core/server/data/migrations/versions/5.20/2022-10-19-11-17-add-link-browse-permissions.js
 ghost/core/core/server/data/migrations/versions/5.6/2022-07-27-13-40-change-explore-type.js
+ghost/core/core/server/data/migrations/versions/5.90/2024-08-20-09-40-24-update-default-donations-suggested-amount.js
 ghost/core/core/server/data/migrations/versions/4.7/02-add-yearly-price-column-to-products.js
 ghost/core/core/server/data/migrations/versions/4.7/03-add-labs-setting.js
 ghost/core/core/server/data/migrations/versions/4.7/01-add-monthly-price-column-to-products.js
@@ -3773,6 +3777,7 @@ ghost/core/test/utils/fixtures/settings/notyaml.md
 ghost/core/test/utils/fixtures/settings/goodroutes.yaml
 ghost/core/test/utils/fixtures/settings/routes.yaml
 ghost/core/test/utils/fixtures/settings/newroutes.yaml
+ghost/core/test/utils/fixtures/settings/edgecaseroutes.yaml
 ghost/core/test/utils/fixtures/themes/broken-theme/package.json
 ghost/core/test/utils/fixtures/themes/invalid.zip
 ghost/core/test/utils/fixtures/themes/casper/error.hbs
@@ -4141,6 +4146,7 @@ ghost/core/test/unit/server/services/themes/loader.test.js
 ghost/core/test/unit/server/services/newsletters/service.test.js
 ghost/core/test/unit/server/services/newsletters/index.test.js
 ghost/core/test/unit/server/services/members/middleware.test.js
+ghost/core/test/unit/server/services/members/RequestIntegrityTokenProvider.test.js
 ghost/core/test/unit/server/services/members/content-gating.test.js
 ghost/core/test/unit/server/services/members/stripe-connect.test.js
 ghost/core/test/unit/server/services/members/utils.test.js
@@ -4247,6 +4253,7 @@ ghost/core/test/unit/api/canary/utils/serializers/input/posts.test.js
 ghost/core/test/unit/api/canary/utils/serializers/input/integrations.test.js
 ghost/core/test/unit/api/canary/utils/serializers/input/members.test.js
 ghost/core/test/unit/api/cache-invalidation.test.js
+ghost/core/test/unit/shared/instrumentation.test.js
 ghost/core/test/unit/shared/config/adapter_config.test.js
 ghost/core/test/unit/shared/config/loader.test.js
 ghost/core/test/unit/shared/config/helpers.test.js
@@ -4615,6 +4622,7 @@ apps/portal/src/components/pages/SupportSuccess.js
 apps/portal/src/components/pages/RecommendationsPage.js
 apps/portal/src/components/pages/SignupPage.js
 apps/portal/src/components/pages/AccountPlanPage.test.js
+apps/portal/src/components/pages/FeedbackPage.test.js
 apps/portal/src/components/pages/SupportPage.js
 apps/portal/src/components/pages/FeedbackPage.js
 apps/portal/src/components/pages/MagicLinkPage.js
@@ -4653,6 +4661,7 @@ apps/portal/src/pages.js
 apps/portal/src/tests/data-attributes.test.js
 apps/portal/src/tests/SignupFlow.test.js
 apps/portal/src/tests/SigninFlow.test.js
+apps/portal/src/tests/FeedbackFlow.test.js
 apps/portal/src/tests/portal-links.test.js
 apps/portal/src/tests/EmailSubscriptionsFlow.test.js
 apps/portal/src/tests/UpgradeFlow.test.js
@@ -4896,6 +4905,7 @@ apps/admin-x-settings/test/acceptance/general/twitter.test.ts
 apps/admin-x-settings/test/acceptance/general/lockSite.test.ts
 apps/admin-x-settings/test/acceptance/general/titleAndDescription.test.ts
 apps/admin-x-settings/test/acceptance/routing.test.ts
+apps/admin-x-settings/test/acceptance/growth/tips-and-donations.test.ts
 apps/admin-x-settings/test/acceptance/membership/tiers.test.ts
 apps/admin-x-settings/test/acceptance/membership/signupEmbed.test.ts
 apps/admin-x-settings/test/acceptance/membership/recommendations.test.ts
@@ -5118,6 +5128,7 @@ apps/admin-x-design-system/src/assets/icons/twitter-x.svg
 apps/admin-x-design-system/src/assets/icons/linkedin.svg
 apps/admin-x-design-system/src/assets/icons/share.svg
 apps/admin-x-design-system/src/assets/icons/arrow-up.svg
+apps/admin-x-design-system/src/assets/icons/column-layout.svg
 apps/admin-x-design-system/src/assets/icons/facebook.svg
 apps/admin-x-design-system/src/assets/icons/user.svg
 apps/admin-x-design-system/src/assets/icons/arrow-down.svg
@@ -5133,6 +5144,7 @@ apps/admin-x-design-system/src/assets/icons/upload.svg
 apps/admin-x-design-system/src/assets/icons/email.svg
 apps/admin-x-design-system/src/assets/icons/thumbs-down.svg
 apps/admin-x-design-system/src/assets/icons/navigation.svg
+apps/admin-x-design-system/src/assets/icons/card-list.svg
 apps/admin-x-design-system/src/assets/icons/cardview.svg
 apps/admin-x-design-system/src/assets/icons/megaphone.svg
 apps/admin-x-design-system/src/assets/icons/labs-flask.svg

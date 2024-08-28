@@ -10,6 +10,7 @@ public/mix-manifest.json
 public/.htaccess
 public/sounds/success.mp3
 public/sounds/error.mp3
+public/sounds/lock.mp3
 public/.well-known/security.txt
 public/mix.js.map
 public/uploads/assets/.gitkeep
@@ -504,15 +505,15 @@ Dockerfile.fpm-alpine
 docker/docker.env
 docker/000-default.conf
 docker/startup.sh
+docker/startup_alpine.sh
 docker/develop.sh
 docker/docker-secrets.env
-docker/entrypoint_alpine.sh
+docker/startup_alpine_fpm.sh
 docker/column-statistics.cnf
 docker/supervisord.conf
 docker/001-default-ssl.conf
 docker/supervisor-exit-event-listener
 docker/000-default-2.4.conf
-docker/docker-entrypoint.sh
 docker/README.md
 stubs/test.unit.stub
 stubs/test.stub
@@ -560,6 +561,7 @@ tests/Feature/Users/Api/UsersForSelectListTest.php
 tests/Feature/Console/OptimizeTest.php
 tests/Feature/Console/FixupAssignedToAssignedTypeTest.php
 tests/Feature/Console/MergeUsersTest.php
+tests/Feature/Livewire/ImporterTest.php
 tests/Feature/Livewire/CategoryEditFormTest.php
 tests/Feature/Settings/BrandingSettingsTest.php
 tests/Feature/Settings/ShowSetUpPageTest.php
@@ -613,6 +615,7 @@ tests/Feature/Categories/Api/CreateCategoriesTest.php
 tests/Feature/AssetModels/Ui/CreateAssetModelsTest.php
 tests/Feature/AssetModels/Ui/IndexAssetModelsTest.php
 tests/Feature/AssetModels/Ui/UpdateAssetModelsTest.php
+tests/Feature/AssetModels/Api/AssetModelFilesTest.php
 tests/Feature/AssetModels/Api/CreateAssetModelsTest.php
 tests/Feature/AssetModels/Api/IndexAssetModelsTest.php
 tests/Feature/AssetModels/Api/UpdateAssetModelsTest.php
@@ -690,6 +693,7 @@ resources/views/reports/licenses.blade.php
 resources/views/errors/403.blade.php
 resources/views/errors/404.blade.php
 resources/views/errors/503.blade.php
+resources/views/blade/icon.blade.php
 resources/views/blade/redirect_submit_options.blade.php
 resources/views/blade/example.blade.php
 resources/views/departments/edit.blade.php
@@ -6650,6 +6654,7 @@ app/Console/Commands/SyncAssetCounters.php
 app/Console/Commands/DisableLDAP.php
 app/Console/Commands/NormalizeUserNames.php
 app/Console/Commands/LdapSync.php
+app/Console/Commands/RemoveExplicitEols.php
 app/Console/Commands/ImportLocations.php
 app/Console/Commands/RecryptFromMcrypt.php
 app/Console/Commands/SamlClearExpiredNonces.php
@@ -6675,6 +6680,7 @@ app/Exceptions/CheckoutNotAllowed.php
 app/Exceptions/Handler.php
 app/Jobs/Job.php
 app/Helpers/Helper.php
+app/Helpers/IconHelper.php
 app/Helpers/StorageHelper.php
 app/Events/UserMerged.php
 app/Events/CheckoutableCheckedIn.php
@@ -6787,6 +6793,7 @@ app/Http/Controllers/HealthController.php
 app/Http/Controllers/ActionlogController.php
 app/Http/Controllers/ViewAssetsController.php
 app/Http/Controllers/Api/AssetMaintenancesController.php
+app/Http/Controllers/Api/AssetModelFilesController.php
 app/Http/Controllers/Api/AssetsController.php
 app/Http/Controllers/Api/LicensesController.php
 app/Http/Controllers/Api/GroupsController.php

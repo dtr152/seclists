@@ -2098,6 +2098,7 @@ src/Presentation/Nop.Web/wwwroot/lib_npm/jquery-tageditor/jquery.tag-editor.min.
 src/Presentation/Nop.Web/wwwroot/lib_npm/jquery-tageditor/jquery.caret.min.js
 src/Presentation/Nop.Web/wwwroot/lib_npm/datatables.net/js/jquery.dataTables.min.js
 src/Presentation/Nop.Web/wwwroot/lib_npm/jquery-migrate/jquery-migrate.min.map
+src/Presentation/Nop.Web/wwwroot/lib_npm/jquery-migrate/jquery-migrate.js
 src/Presentation/Nop.Web/wwwroot/lib_npm/jquery-migrate/jquery-migrate.min.js
 src/Presentation/Nop.Web/wwwroot/lib_npm/overlayscrollbars/js/OverlayScrollbars.min.js
 src/Presentation/Nop.Web/wwwroot/lib_npm/overlayscrollbars/js/jquery.overlayScrollbars.min.js
@@ -4528,6 +4529,7 @@ src/Tests/Nop.Tests/Nop.Services.Tests/Directory/MeasureServiceTests.cs
 src/Tests/Nop.Tests/Nop.Services.Tests/Directory/TestExchangeRateProvider.cs
 src/Tests/Nop.Tests/Nop.Services.Tests/Directory/CurrencyServiceTests.cs
 src/Tests/Nop.Tests/Nop.Services.Tests/Common/NopLinksDefaultsTests.cs
+src/Tests/Nop.Tests/Nop.Services.Tests/Common/AddressServiceTests.cs
 src/Tests/Nop.Tests/Nop.Services.Tests/Common/GenericAttributeServiceTests.cs
 src/Tests/Nop.Tests/Nop.Services.Tests/Common/AttributeParserTests.cs
 src/Tests/Nop.Tests/Nop.Services.Tests/Tax/TaxServiceTests.cs

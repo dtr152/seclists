@@ -1755,6 +1755,7 @@ app/bundles/CoreBundle/Entity/UuidInterface.php
 app/bundles/CoreBundle/Entity/DynamicContentEntityTrait.php
 app/bundles/CoreBundle/Entity/CommonRepository.php
 app/bundles/CoreBundle/Entity/FormEntity.php
+app/bundles/CoreBundle/Entity/SkipModifiedInterface.php
 app/bundles/CoreBundle/Entity/CacheInvalidateInterface.php
 app/bundles/CoreBundle/Entity/UpsertTrait.php
 app/bundles/CoreBundle/Entity/OptimisticLockTrait.php
@@ -1900,6 +1901,7 @@ app/bundles/CoreBundle/IpLookup/AbstractRemoteDataLookup.php
 app/bundles/CoreBundle/Monolog/LogProcessor.php
 app/bundles/CoreBundle/Monolog/Handler/FileLogHandler.php
 app/bundles/CoreBundle/Security/Permissions/CorePermissions.php
+app/bundles/CoreBundle/Security/Permissions/VirtualPermissions.php
 app/bundles/CoreBundle/Security/Permissions/SystemPermissions.php
 app/bundles/CoreBundle/Security/Permissions/AbstractPermissions.php
 app/bundles/CoreBundle/Security/Exception/PermissionException.php
@@ -2226,6 +2228,7 @@ app/bundles/CoreBundle/Assets/css/app/less/components/maps.less
 app/bundles/CoreBundle/Assets/css/app/less/components/menu.less
 app/bundles/CoreBundle/Assets/css/app/less/components/scaffolding.less
 app/bundles/CoreBundle/Assets/css/app/less/components/bullet.less
+app/bundles/CoreBundle/Assets/css/app/less/components/accordions.less
 app/bundles/CoreBundle/Assets/css/app/less/components/alerts.less
 app/bundles/CoreBundle/Assets/css/app/less/components/button-groups.less
 app/bundles/CoreBundle/Assets/css/app/less/spinning.less
@@ -2501,6 +2504,7 @@ app/bundles/CoreBundle/Resources/views/Exception/403.html.twig
 app/bundles/CoreBundle/Resources/views/Exception/404.html.twig
 app/bundles/CoreBundle/Resources/views/Menu/admin.html.twig
 app/bundles/CoreBundle/Resources/views/Menu/profile.html.twig
+app/bundles/CoreBundle/Resources/views/Menu/quick_help.html.twig
 app/bundles/CoreBundle/Resources/views/Menu/extra.html.twig
 app/bundles/CoreBundle/Resources/views/Menu/main.html.twig
 app/bundles/CoreBundle/Resources/views/Menu/profile_inline.html.twig
@@ -2765,6 +2769,7 @@ app/bundles/CoreBundle/Tests/Unit/Twig/Extension/AssetExtensionTest.php
 app/bundles/CoreBundle/Tests/Unit/Twig/Extension/FormatterExtensionTest.php
 app/bundles/CoreBundle/Tests/Unit/Twig/Extension/EmojiExtensionTest.php
 app/bundles/CoreBundle/Tests/Unit/Twig/Extension/HtmlExtensionTest.php
+app/bundles/CoreBundle/Tests/Unit/Twig/Extension/DateExtensionTest.php
 app/bundles/CoreBundle/Tests/Unit/Twig/Extension/MenuExtensionTest.php
 app/bundles/CoreBundle/Tests/_output/.gitkeep
 app/bundles/CoreBundle/Tests/Form/RequestTraitTest.php
@@ -2783,6 +2788,7 @@ app/bundles/CoreBundle/Tests/Functional/Helper/Chart/ChartQueryTest.php
 app/bundles/CoreBundle/Tests/Functional/Command/AnonymizeIpCommandTest.php
 app/bundles/CoreBundle/Tests/Functional/Type/GatedVideoTypeTest.php
 app/bundles/CoreBundle/Tests/Functional/ParametersTest.php
+app/bundles/CoreBundle/Tests/Functional/Security/Permissions/CorePermissionsTest.php
 app/bundles/CoreBundle/Tests/Functional/Doctrine/Paginator/SimplePaginatorTest.php
 app/bundles/CoreBundle/Tests/Functional/DependencyInjection/Compiler/SystemThemeTemplatePathPassTest.php
 app/bundles/CoreBundle/Tests/Functional/CreateTestEntitiesTrait.php
@@ -4543,7 +4549,6 @@ app/bundles/LeadBundle/Resources/views/Field/properties_select.html.twig
 app/bundles/LeadBundle/Resources/views/Field/properties_number.html.twig
 app/bundles/LeadBundle/Resources/views/Field/list.html.twig
 app/bundles/LeadBundle/Resources/views/Field/properties_boolean.html.twig
-app/bundles/LeadBundle/Resources/views/Field/properties_textarea.html.twig
 app/bundles/LeadBundle/Resources/views/LeadLists/index.html.twig
 app/bundles/LeadBundle/Resources/views/Auditlog/_table.html.twig
 app/bundles/LeadBundle/Resources/views/Auditlog/details.html.twig
@@ -5162,6 +5167,7 @@ app/migrations/Version20190524124819.php
 app/migrations/Version20210217115150.php
 app/migrations/Version20211110070503.php
 app/migrations/Version20200917152259.php
+app/migrations/Version20240704164714.php
 app/migrations/Version20211209022550.php
 app/migrations/Version20221128145933.php
 app/migrations/Version20240416112112.php

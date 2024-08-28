@@ -3765,6 +3765,7 @@ core/modules/system/tests/src/Functional/Entity/EntityAddUITest.php
 core/modules/system/tests/src/Functional/Entity/EntityWithUriCacheTagsTestBase.php
 core/modules/system/tests/src/Functional/Entity/EntityTranslationFormTest.php
 core/modules/system/tests/src/Functional/Entity/Traits/EntityDefinitionTestTrait.php
+core/modules/system/tests/src/Functional/Update/Y2038SchemaUpdateTest.php
 core/modules/system/tests/src/Functional/Update/README.txt
 core/modules/system/tests/src/Functional/ServiceProvider/ServiceProviderWebTest.php
 core/modules/system/tests/src/Functional/System/MainContentFallbackTest.php
@@ -4912,6 +4913,7 @@ core/modules/jsonapi/tests/src/Unit/Routing/RoutesTest.php
 core/modules/jsonapi/tests/src/Unit/JsonApiResource/LinkTest.php
 core/modules/jsonapi/tests/src/Unit/EventSubscriber/ResourceResponseValidatorTest.php
 core/modules/jsonapi/tests/src/Functional/ShortcutSetTest.php
+core/modules/jsonapi/tests/src/Functional/CommentExtrasTest.php
 core/modules/jsonapi/tests/src/Functional/ConfigTestTest.php
 core/modules/jsonapi/tests/src/Functional/MenuLinkContentTest.php
 core/modules/jsonapi/tests/src/Functional/ContentLanguageSettingsTest.php
@@ -5820,6 +5822,8 @@ core/modules/node/tests/modules/node_test/node_test.info.yml
 core/modules/node/tests/modules/node_test/node_test.module
 core/modules/node/tests/modules/node_access_test_language/node_access_test_language.info.yml
 core/modules/node/tests/modules/node_access_test_language/node_access_test_language.module
+core/modules/node/tests/modules/node_display_configurable_test/node_display_configurable_test.info.yml
+core/modules/node/tests/modules/node_display_configurable_test/node_display_configurable_test.module
 core/modules/node/tests/modules/node_access_test/node_access_test.permissions.yml
 core/modules/node/tests/modules/node_access_test/node_access_test.module
 core/modules/node/tests/modules/node_access_test/node_access_test.info.yml
@@ -5881,6 +5885,7 @@ core/modules/node/tests/src/Functional/NodeAccessJoinTest.php
 core/modules/node/tests/src/Functional/NodeAccessRebuildNodeGrantsTest.php
 core/modules/node/tests/src/Functional/NodeTypeInitialLanguageTest.php
 core/modules/node/tests/src/Functional/NodeAccessCacheabilityWithNodeGrants.php
+core/modules/node/tests/src/Functional/NodeDisplayConfigurableTest.php
 core/modules/node/tests/src/Functional/NodeCreationTest.php
 core/modules/node/tests/src/Functional/NodeViewTest.php
 core/modules/node/tests/src/Functional/NodeFieldMultilingualTest.php
@@ -13617,6 +13622,7 @@ core/tests/Drupal/KernelTests/Core/Entity/EntityDeriverTest.php
 core/tests/Drupal/KernelTests/Core/Entity/EntityBundleListenerTest.php
 core/tests/Drupal/KernelTests/Core/Entity/EntityDisplayFormBaseTest.php
 core/tests/Drupal/KernelTests/Core/Entity/EntityFormDisplayValidationTest.php
+core/tests/Drupal/KernelTests/Core/Entity/EntityDefinitionUpdateProviderTest.php
 core/tests/Drupal/KernelTests/Core/Entity/RevisionableContentEntityBaseTest.php
 core/tests/Drupal/KernelTests/Core/Entity/EntityViewHookTest.php
 core/tests/Drupal/KernelTests/Core/Entity/EntityRevisionTranslationTest.php
@@ -13800,7 +13806,7 @@ core/tests/Drupal/KernelTests/Core/ParamConverter/EntityConverterLatestRevisionT
 core/tests/Drupal/KernelTests/Core/Validation/UniqueValuesConstraintValidatorTest.php
 core/tests/Drupal/KernelTests/Core/Validation/ConstraintFactoryTest.php
 core/tests/Drupal/KernelTests/Core/Validation/UniqueFieldConstraintTest.php
-core/tests/Drupal/KernelTests/Core/Validation/ConstraintsTest.php
+core/tests/Drupal/KernelTests/Core/Validation/UuidValidatorTest.php
 core/tests/Drupal/KernelTests/Core/Pager/RequestPagerTest.php
 core/tests/Drupal/KernelTests/Core/Pager/PagerManagerTest.php
 core/tests/Drupal/KernelTests/Core/Test/SimpletestTestRunResultsStorageTest.php
@@ -14470,6 +14476,7 @@ core/tests/Drupal/Tests/UiHelperTrait.php
 core/tests/Drupal/Tests/SessionTestTrait.php
 core/tests/Drupal/Tests/CSpell/SortTest.php
 core/tests/Drupal/Tests/HiddenFieldSelector.php
+core/tests/Drupal/Tests/EntityTrait.php
 core/tests/Drupal/Tests/BrowserTestBase.php
 core/tests/Drupal/Tests/PerformanceTestTrait.php
 core/tests/Drupal/Tests/XdebugRequestTrait.php
