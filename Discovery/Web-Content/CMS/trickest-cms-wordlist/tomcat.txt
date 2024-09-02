@@ -3924,6 +3924,7 @@ test/org/apache/catalina/util/TestServerInfo.java
 test/org/apache/catalina/util/TestNetMaskSet.java
 test/org/apache/catalina/util/TestContextNameExtractFromPath.java
 test/org/apache/catalina/util/TestURLEncoder.java
+test/org/apache/catalina/util/TestParameterMapPerformance.java
 test/org/apache/catalina/util/TestNetMask.java
 test/org/apache/catalina/util/TestContextName.java
 test/org/apache/catalina/util/TestTimeBucketCounter.java
@@ -4079,6 +4080,7 @@ test/org/apache/coyote/http2/TestStream.java
 test/org/apache/coyote/http2/TestRfc9218.java
 test/org/apache/coyote/http2/TestHttp2Section_6_2.java
 test/org/apache/coyote/http2/TestHttp2Section_8_1.java
+test/org/apache/coyote/http2/TestHttp2AccessLogs.java
 test/org/apache/coyote/http2/TestStreamQueryString.java
 test/org/apache/coyote/http2/TestLargeUpload.java
 test/org/apache/coyote/http2/TestByteUtil.java

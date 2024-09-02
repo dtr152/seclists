@@ -23150,6 +23150,12 @@ apache/catalina/util/TestURLEncoder.java
 catalina/util/TestURLEncoder.java
 util/TestURLEncoder.java
 TestURLEncoder.java
+test/org/apache/catalina/util/TestParameterMapPerformance.java
+org/apache/catalina/util/TestParameterMapPerformance.java
+apache/catalina/util/TestParameterMapPerformance.java
+catalina/util/TestParameterMapPerformance.java
+util/TestParameterMapPerformance.java
+TestParameterMapPerformance.java
 test/org/apache/catalina/util/TestNetMask.java
 org/apache/catalina/util/TestNetMask.java
 apache/catalina/util/TestNetMask.java
@@ -24084,6 +24090,12 @@ apache/coyote/http2/TestHttp2Section_8_1.java
 coyote/http2/TestHttp2Section_8_1.java
 http2/TestHttp2Section_8_1.java
 TestHttp2Section_8_1.java
+test/org/apache/coyote/http2/TestHttp2AccessLogs.java
+org/apache/coyote/http2/TestHttp2AccessLogs.java
+apache/coyote/http2/TestHttp2AccessLogs.java
+coyote/http2/TestHttp2AccessLogs.java
+http2/TestHttp2AccessLogs.java
+TestHttp2AccessLogs.java
 test/org/apache/coyote/http2/TestStreamQueryString.java
 org/apache/coyote/http2/TestStreamQueryString.java
 apache/coyote/http2/TestStreamQueryString.java

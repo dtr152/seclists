@@ -2546,7 +2546,6 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /capital/consumer/invoice/merchants
 /cars/marketplace/product/*
 /cart
-/cart
 /cas-redirect
 /cast-list
 /castr
@@ -2563,7 +2562,6 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /chat/
 /chats/
 /checkin
-/checkout
 /checkout
 /ci
 /cinema-entertainment/*
@@ -2998,7 +2996,6 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /login
 /login$
 /login*/search?
-/login/
 /login/verify-email
 /login?
 /loginpage
@@ -3055,7 +3052,6 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /music/track-
 /music/user
 /mvopinions/*
-/my-account
 /my_account/register
 /mychannel
 /naboo
@@ -3242,7 +3238,6 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /recommendations/products
 /references
 /referrer$
-/register/
 /registration-confirmation/
 /related
 /related
@@ -3643,7 +3638,6 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 0
 0*?
 0,*
-0;((a=google.c)==null?void
 ;preview=
 =$
 ?
@@ -6850,7 +6844,6 @@ a/eclipselabs.org
 a/feeds
 a/ocom/docs/corporate/pricing
 a/ocom/resources
-a=function(){I=!1;O()};google.caft(a);window.setTimeout(a,amd)}K&&(a=function(){K=!1;O()},J?J.cbvi.push(a):(0,google.rairicb)(a),window.setTimeout(a,mmd));M&&(H||A())}else
 aaea/
 aapor/
 ab
@@ -7107,7 +7100,6 @@ addtocart
 adell-mutfak
 adfox
 adframe
-adfs/
 admanager
 admantx
 admin
@@ -8242,6 +8234,7 @@ backend
 backoffice=
 badges/profile/create
 bagon
+baidu
 ban-me-i-am-a-robot
 bandito
 banking
@@ -10159,6 +10152,7 @@ companies
 companies/c
 companies/o
 companies/search
+company
 company/*.rss
 company/?s=
 company/add-ons-agreement
@@ -10365,11 +10359,13 @@ content/dam/redcross/lp
 content/dam/web/da_dk/www
 content/dam/web/de_ch/www
 content/dam/web/de_de/www
+content/dam/web/en_au/www
 content/dam/web/en_ca/www
 content/dam/web/en_dk/www
 content/dam/web/en_gb/www
 content/dam/web/en_ie/www
 content/dam/web/en_is/www
+content/dam/web/en_sg/www
 content/dam/web/en_us/www/assets/pdf
 content/dam/web/en_us/www/documents
 content/dam/web/en_us/www/documents/legal/Agreements/product-specific-terms/premier-priority-terms.pdf
@@ -10545,6 +10541,7 @@ cp/api/wpa
 cpds2
 cpes/
 cpresources
+cpro
 cpropub/univercd
 cpspa
 cr
@@ -11057,7 +11054,6 @@ delight
 dell/cities-transformed
 dell/cloud-future-of-medicine
 demo
-demokratie-jetzt.html
 demonstration
 demos
 demos/
@@ -13282,7 +13278,7 @@ glass/images/commerce
 global
 global$
 global-consumer-survey/tool
-global-infrastructure/services/get-async/http://bakespace.com/robots.txt
+global-infrastructure/services/get-async/http://baidu.com/robots.txt
 global-master
 global-nav-esi
 global/RU/
@@ -13893,6 +13889,7 @@ homeandgarden/home/hearstmagazines
 homefeed
 homepage
 homepage-video-test
+homepage/
 homepage/2013
 honing.html
 hooks
@@ -14669,6 +14666,7 @@ info/jobs/Kooperations-Manager.html
 info/jobs/Social-Media-Online-Kommunikation.html
 info/jobs/UX-UI-Designer.html
 info/jobs/ba-medieninformatik.html
+info/jobs/backend-entwicklerin.html
 info/jobs/buchhaltung-payment.html
 info/jobs/buchhaltung-personal.html
 info/jobs/compliance.html
@@ -14681,7 +14679,6 @@ info/jobs/product-owner.html
 info/jobs/projektberater.html
 info/jobs/scrum-master.html
 info/jobs/showmaster.html
-info/jobs/site-reliability-engineer.html
 info/jobs/social-media.html
 info/jobs/support.html
 info/jobs/texterin-uxwriterin.html
@@ -15128,6 +15125,8 @@ journal/biogeography
 journal/biogeography$
 journal/books
 journal/books$
+journal/clinbioenerg
+journal/clinbioenerg$
 journal/devices
 journal/devices$
 journal/ecologicalsciences
@@ -15171,8 +15170,6 @@ journal/opennursing
 journal/opennursing$
 journal/pains
 journal/pains$
-journal/populations
-journal/populations$
 journal/projects
 journal/projects$
 journal/protein
@@ -15515,6 +15512,7 @@ latest-playlist
 latest-talk
 latin
 latin_en
+launch-day-show-voting.html
 launch2005/
 law-school/search-results/
 lawlib/archive
@@ -15702,6 +15700,7 @@ liked
 limit_hits
 limited-release
 link
+link?
 link_to
 linked
 linkedin
@@ -17973,6 +17972,7 @@ page/*/?egotecpage
 page/*/?hc_location=
 page/*/?iq_id=
 page/*/?pcd=
+page/*/?s
 page/*/?s=
 page/*/?search=
 page/account-confirmation-thanks
@@ -19840,6 +19840,7 @@ s2/sitemaps
 s2/static
 s3
 s?
+s?
 s?*rh=n%3A1380045031
 sa
 sa=
@@ -20601,6 +20602,7 @@ sharing/files
 sharing/folders
 shelf/user_shelves
 shenghuo/search?
+shifen/
 shihui
 shihui?
 ship
@@ -20719,6 +20721,7 @@ sign-in
 sign-in-6for6Sale
 sign-out
 sign-out
+sign-up
 sign-up-to-be-contacted-for-research
 sign-up/?
 sign_in
@@ -21898,6 +21901,7 @@ t/privacy
 t/terms
 t3-assets
 t3lib
+t7
 t=
 ta-LK/forums
 ta-LK/kb/*/discuss
@@ -22911,6 +22915,7 @@ uk/users
 uk/ventureone
 uk/wdc
 uk/your
+ulink?
 ulk/i
 ulk/sch
 ulk/usr

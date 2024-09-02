@@ -1391,6 +1391,10 @@ htdocs/fichinter/class/fichinterrec.class.php
 fichinter/class/fichinterrec.class.php
 class/fichinterrec.class.php
 fichinterrec.class.php
+htdocs/fichinter/class/fichinterligne.class.php
+fichinter/class/fichinterligne.class.php
+class/fichinterligne.class.php
+fichinterligne.class.php
 htdocs/fichinter/class/fichinter.class.php
 fichinter/class/fichinter.class.php
 class/fichinter.class.php
@@ -1748,6 +1752,10 @@ htdocs/bom/class/api_boms.class.php
 bom/class/api_boms.class.php
 class/api_boms.class.php
 api_boms.class.php
+htdocs/bom/class/bomline.class.php
+bom/class/bomline.class.php
+class/bomline.class.php
+bomline.class.php
 htdocs/bom/class/bom.class.php
 bom/class/bom.class.php
 class/bom.class.php
@@ -62476,6 +62484,10 @@ htdocs/contrat/admin/contractdet_extrafields.php
 contrat/admin/contractdet_extrafields.php
 admin/contractdet_extrafields.php
 contractdet_extrafields.php
+htdocs/contrat/class/contratligne.class.php
+contrat/class/contratligne.class.php
+class/contratligne.class.php
+contratligne.class.php
 htdocs/contrat/class/contrat.class.php
 contrat/class/contrat.class.php
 class/contrat.class.php
