@@ -14896,6 +14896,10 @@ erpnext/controllers/tests/test_subcontracting_controller.py
 controllers/tests/test_subcontracting_controller.py
 tests/test_subcontracting_controller.py
 test_subcontracting_controller.py
+erpnext/controllers/tests/test_distributed_discount.py
+controllers/tests/test_distributed_discount.py
+tests/test_distributed_discount.py
+test_distributed_discount.py
 erpnext/controllers/tests/test_accounts_controller.py
 controllers/tests/test_accounts_controller.py
 tests/test_accounts_controller.py
@@ -18017,6 +18021,10 @@ erpnext/patches/v15_0/fix_debit_credit_in_transaction_currency.py
 patches/v15_0/fix_debit_credit_in_transaction_currency.py
 v15_0/fix_debit_credit_in_transaction_currency.py
 fix_debit_credit_in_transaction_currency.py
+erpnext/patches/v15_0/link_purchase_item_to_asset_doc.py
+patches/v15_0/link_purchase_item_to_asset_doc.py
+v15_0/link_purchase_item_to_asset_doc.py
+link_purchase_item_to_asset_doc.py
 erpnext/patches/v15_0/set_standard_stock_entry_type.py
 patches/v15_0/set_standard_stock_entry_type.py
 v15_0/set_standard_stock_entry_type.py
