@@ -2756,6 +2756,7 @@ src/Sylius/Behat/Resources/config/suites/ui/admin/locale.yml
 src/Sylius/Behat/Resources/config/suites/ui/admin/security.yml
 src/Sylius/Behat/Resources/config/suites/ui/admin/impersonating_customers.yml
 src/Sylius/Behat/Resources/config/suites/ui/admin/login.yml
+src/Sylius/Behat/Resources/config/suites/ui/cart/accessing_cart.yaml
 src/Sylius/Behat/Resources/config/suites/ui/cart/shopping_cart.yml
 src/Sylius/Behat/Resources/config/suites/ui/product/accessing_price_history.yml
 src/Sylius/Behat/Resources/config/suites/ui/product/managing_products.yml
@@ -3928,7 +3929,6 @@ src/Sylius/Abstraction/StateMachine/src/TransitionInterface.php
 src/Sylius/Abstraction/StateMachine/src/StateMachineInterface.php
 src/Sylius/Abstraction/StateMachine/src/Twig/StateMachineExtension.php
 src/Sylius/Abstraction/StateMachine/README.md
-src/Sylius/UPGRADE-1.14.md
 src/Sylius/Bundle/UserBundle/composer.json
 src/Sylius/Bundle/UserBundle/SyliusUserBundle.php
 src/Sylius/Bundle/UserBundle/phpunit.xml.dist
@@ -6775,7 +6775,6 @@ src/Sylius/Bundle/CoreBundle/Resources/config/validation/ShippingMethod.xml
 src/Sylius/Bundle/CoreBundle/Resources/config/validation/Channel.xml
 src/Sylius/Bundle/CoreBundle/Resources/config/validation/PromotionCoupon.xml
 src/Sylius/Bundle/CoreBundle/Resources/config/validation/Taxon.xml
-src/Sylius/Bundle/CoreBundle/Resources/config/validation/AbstractTranslation.xml
 src/Sylius/Bundle/CoreBundle/Resources/config/validation/OrderItem.xml
 src/Sylius/Bundle/CoreBundle/Resources/config/validation/AddToCartCommand.xml
 src/Sylius/Bundle/CoreBundle/Resources/config/validation/Payment.xml
